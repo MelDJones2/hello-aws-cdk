@@ -4,7 +4,7 @@ import { Construct } from 'constructs';
 
 export class HelloCdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
+    super(scope, id, props); // call parent constructor from hello-cdk.ts
 
     // The code that defines your stack goes here
 
